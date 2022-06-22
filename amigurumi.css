@@ -50,4 +50,21 @@ body {
 .foto-hello img {
 	width: 100%;
 	heigth: 100%;
+	}
+.xic {
+	position: relative;
+	border: 8px solid white;
+}	
+.xic img {
+	width: 100%;
+	heigth: 100%;
+}
+.xic figcaption {
+	opacity: 0;
+	position: absolute;
+	top: 0px;
+	transition: 1s;
+}
+.xic:hover figcaption {
+	opacity: 1;
 }
