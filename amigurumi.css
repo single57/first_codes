@@ -7,7 +7,7 @@ p {
 	font-weight: 700;
 }
 .center {
-	text-align: center;
+	text-align: left;
 	}
 .foto {
 	border:8px solid white;
@@ -67,4 +67,25 @@ body {
 }
 .xic:hover figcaption {
 	opacity: 1;
+}
+
+/* Formatação do Menu */
+
+nav#menu ul {
+	list-style: none;
+   text-transform: uppercase;
+   position: absolute;
+   top: -10px;
+   left: 700px;
+   
+}
+
+nav#menu li {
+	display: inline-block;
+	background-color: #dddddd;
+	padding: 10px;
+	margin: 2px;
+}
+nav#menu h1 {
+	display: none;
 }
